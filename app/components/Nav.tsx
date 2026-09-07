@@ -25,7 +25,7 @@ export default function Nav() {
       <div className="nav-main">
         <Link href="/" aria-label={`${SITE_NAME} home`} className="nav-logo">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/the-law-agent-wordmark.png" alt={SITE_NAME} />
+          <img src="/images/the-law-agent-wordmark.svg" alt={SITE_NAME} />
         </Link>
 
         <nav className="nav-links" aria-label="Main">

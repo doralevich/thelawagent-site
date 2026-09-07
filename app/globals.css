@@ -7,14 +7,14 @@
    and hero are the one place worth writing real CSS, since every page shares them and
    the layout is fiddly. Change a colour in tailwind.config.ts and change it here. */
 :root {
-  --brand: #900e29;
-  --brand-dark: #620a1c;
-  --brand-tint: #e07b90;
-  --ground: #1c0b0e;
+  --brand: #8e192a;
+  --brand-dark: #61111d;
+  --brand-tint: #e07b8a;
+  --ground: #1c0b0d;
   /* Same two colours as RGB triplets. rgb(from ...) relative colour syntax would be
      tidier but is too new for older Safari, and this is a marketing site. */
-  --brand-rgb: 144, 14, 41;
-  --ground-rgb: 28, 11, 14;
+  --brand-rgb: 142, 25, 42;
+  --ground-rgb: 28, 11, 13;
   --ink: #1a1a1a;
   --cream: #f4f1ef;
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, "Cascadia Mono",

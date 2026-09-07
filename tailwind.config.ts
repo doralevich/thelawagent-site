@@ -5,21 +5,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Sampled from public/images/the-law-agent-wordmark.png - the crimson in the brackets,
-        // #900E29, is the brand.
+        // Read out of public/images/the-law-agent-wordmark.svg - the crimson the brackets are
+        // filled with, #8E192A, is the brand. Taken from the vector rather than sampled off a
+        // raster, so it is the exact value the logo uses and not a close neighbour.
         //
-        // Same two-tone problem the CFO site has, for the same reason: at 31% lightness this
+        // Same two-tone problem the CFO site has, for the same reason: at 33% lightness this
         // crimson is legible on the light grounds and disappears against the near-black one. So
         // `brand` is the wordmark colour and `brand-tint` is the same hue lifted, which is what
         // the dark sections use.
         brand: {
-          DEFAULT: "#900E29",
-          dark: "#620A1C",
-          tint: "#E07B90",
+          DEFAULT: "#8E192A",
+          dark: "#61111D",
+          tint: "#E07B8A",
         },
         // The dark ground carries a trace of the brand hue rather than being neutral black, so
         // the crimson sits on something rather than beside it.
-        ground: "#1C0B0E",
+        ground: "#1C0B0D",
         cream: "#F4F1EF",
         ink: "#1A1A1A",
       },

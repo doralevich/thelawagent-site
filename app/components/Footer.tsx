@@ -18,7 +18,7 @@ export function Footer() {
             <Link href="/" aria-label={`${SITE_NAME} home`}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/the-law-agent-wordmark.png"
+                src="/images/the-law-agent-wordmark.svg"
                 alt={SITE_NAME}
                 className="w-44 h-auto"
               />
