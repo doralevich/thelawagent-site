@@ -1,6 +1,6 @@
 // One place for the things that appear on every page and change rarely.
 
-export const SITE_URL = "https://thelawagent.com";
+export const SITE_URL = "https://thelawagent.ai";
 export const SITE_NAME = "The Law Agent";
 
 /** Self-serve. The questionnaire and the checkout both run on ApolloClaw, so every
