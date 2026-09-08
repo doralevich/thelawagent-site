@@ -14,7 +14,12 @@ export const metadata: Metadata = {
     "The Law Agent drafts from your own templates, redlines against your standard positions, summarizes agreements in plain English, and never lets a renewal date slip.",
   alternates: { canonical: SITE_URL },
   robots: { index: true, follow: true },
-  openGraph: { siteName: SITE_NAME, type: "website", locale: "en_US" },
+  openGraph: {
+    siteName: SITE_NAME,
+    type: "website",
+    locale: "en_US",
+    images: [{ url: `${SITE_URL}/images/og-image.jpg`, width: 1200, height: 630 }],
+  },
   other: {
     "geo.region": "US-NY",
     "geo.placename": "Roslyn Heights, NY",
