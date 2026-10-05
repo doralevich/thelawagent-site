@@ -34,10 +34,10 @@ export const CAPABILITIES = [
 
 export const PROCESS = [
   {
-    phase: "Day 1",
+    phase: "15 min",
     num: "01",
-    title: "We Load Your Playbook",
-    body: "Your templates, your standard positions, and the terms you never move on. We connect the tools your documents already live in, and we set the line an attorney must always cross before anything moves.",
+    title: "You Load Your Playbook",
+    body: "Your templates, your standard positions, and the terms you hold firm on. Connect the tools your documents already live in, and set the line an attorney must always cross before anything moves. That is the questionnaire, and your agent is built from it and running in about fifteen minutes.",
   },
   {
     phase: "Week 1",
@@ -121,7 +121,7 @@ export const FAQS = [
   },
   {
     q: "How long does it take to get up and running?",
-    a: "Most clients are live within two weeks. We onboard the agent on your templates and standard positions, connect your tools, and configure what it drafts, reviews and escalates.",
+    a: "About fifteen minutes. The questionnaire is the configuration: your templates, your standard positions, and what it drafts, reviews and escalates. Your agent is built from it and running as soon as you connect your tools. Hands-on onboarding and 30 days of training are available as an add-on, and come with every custom deployment.",
   },
   {
     q: "Does it work for our practice area?",
